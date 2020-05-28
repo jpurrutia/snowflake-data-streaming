@@ -1,0 +1,662 @@
+{
+  "cc": "xyz789",
+  "df": {
+    "1": {
+      "avail": "208168",
+      "fs": "/dev/mapper/centos-root",
+      "mount": "/",
+      "pct": "100%",
+      "size": "27245572",
+      "used": "27037404"
+    },
+    "2": {
+      "avail": "739228",
+      "fs": "/dev/sda1",
+      "mount": "/boot",
+      "pct": "29%",
+      "size": "1038336",
+      "used": "299108"
+    },
+    "3": {
+      "avail": "9590748",
+      "fs": "/dev/sdb1",
+      "mount": "/backups",
+      "pct": "1%",
+      "size": "10152532",
+      "used": "22992"
+    }
+  },
+  "diskarr": {
+    "1": {
+      "dev_name": "/dev/sda",
+      "maj_min": "8:0",
+      "mountpoint": "",
+      "size": "32212254720",
+      "type": "disk"
+    },
+    "2": {
+      "dev_name": "/dev/sda1",
+      "maj_min": "8:1",
+      "mountpoint": "/boot",
+      "size": "1073741824",
+      "type": "part"
+    },
+    "3": {
+      "dev_name": "/dev/sda2",
+      "maj_min": "8:2",
+      "mountpoint": "",
+      "size": "31137464320",
+      "type": "part"
+    },
+    "4": {
+      "dev_name": "/dev/mapper/centos-root",
+      "maj_min": "253:0",
+      "mountpoint": "/",
+      "size": "27913093120",
+      "type": "lvm"
+    },
+    "5": {
+      "dev_name": "/dev/mapper/centos-swap",
+      "maj_min": "253:1",
+      "mountpoint": "[SWAP]",
+      "size": "3221225472",
+      "type": "lvm"
+    },
+    "6": {
+      "dev_name": "/dev/sdb",
+      "maj_min": "8:16",
+      "mountpoint": "",
+      "size": "10737418240",
+      "type": "disk"
+    },
+    "7": {
+      "dev_name": "/dev/sdb1",
+      "maj_min": "8:17",
+      "mountpoint": "/backups",
+      "size": "10698951680",
+      "type": "part"
+    },
+    "8": {
+      "dev_name": "/dev/sr0",
+      "maj_min": "11:0",
+      "mountpoint": "",
+      "size": "962592768",
+      "type": "rom"
+    }
+  },
+  "diskstat0": {
+    "1": {
+      "device_name": "sda",
+      "ios_currently_in_progress": "0",
+      "maj": "8",
+      "min": "0",
+      "reads_completed_successfully": "4516774",
+      "reads_merged": "431646",
+      "sectors_read": "570717634",
+      "sectors_written": "605575793",
+      "time_spend_reading_ms": "46923233",
+      "time_spend_writing_ms": "16411226",
+      "time_spent_doing_ios_ms": "9321750",
+      "weighted_time_spent_doing_ios_ms": "63025108",
+      "writes_completed": "22805506",
+      "writes_merged": "3217404"
+    },
+    "2": {
+      "device_name": "sda1",
+      "ios_currently_in_progress": "0",
+      "maj": "8",
+      "min": "1",
+      "reads_completed_successfully": "1044",
+      "reads_merged": "0",
+      "sectors_read": "26029",
+      "sectors_written": "30921",
+      "time_spend_reading_ms": "383",
+      "time_spend_writing_ms": "158",
+      "time_spent_doing_ios_ms": "249",
+      "weighted_time_spent_doing_ios_ms": "540",
+      "writes_completed": "65",
+      "writes_merged": "3"
+    },
+    "3": {
+      "device_name": "sda2",
+      "ios_currently_in_progress": "0",
+      "maj": "8",
+      "min": "2",
+      "reads_completed_successfully": "4515699",
+      "reads_merged": "431646",
+      "sectors_read": "570688509",
+      "sectors_written": "605544872",
+      "time_spend_reading_ms": "46922813",
+      "time_spend_writing_ms": "16411068",
+      "time_spent_doing_ios_ms": "9321755",
+      "weighted_time_spent_doing_ios_ms": "63025522",
+      "writes_completed": "22805441",
+      "writes_merged": "3217401"
+    },
+    "4": {
+      "device_name": "sr0",
+      "ios_currently_in_progress": "0",
+      "maj": "11",
+      "min": "0",
+      "reads_completed_successfully": "18",
+      "reads_merged": "0",
+      "sectors_read": "2056",
+      "sectors_written": "0",
+      "time_spend_reading_ms": "6",
+      "time_spend_writing_ms": "0",
+      "time_spent_doing_ios_ms": "6",
+      "weighted_time_spent_doing_ios_ms": "6",
+      "writes_completed": "0",
+      "writes_merged": "0"
+    },
+    "5": {
+      "device_name": "dm-0",
+      "ios_currently_in_progress": "0",
+      "maj": "253",
+      "min": "0",
+      "reads_completed_successfully": "4224627",
+      "reads_merged": "0",
+      "sectors_read": "564718669",
+      "sectors_written": "583882656",
+      "time_spend_reading_ms": "46751437",
+      "time_spend_writing_ms": "17184247",
+      "time_spent_doing_ios_ms": "8165414",
+      "weighted_time_spent_doing_ios_ms": "64057862",
+      "writes_completed": "23315078",
+      "writes_merged": "0"
+    },
+    "6": {
+      "device_name": "dm-1",
+      "ios_currently_in_progress": "0",
+      "maj": "253",
+      "min": "1",
+      "reads_completed_successfully": "745237",
+      "reads_merged": "0",
+      "sectors_read": "5965600",
+      "sectors_written": "21662216",
+      "time_spend_reading_ms": "3356564",
+      "time_spend_writing_ms": "7897504",
+      "time_spent_doing_ios_ms": "1315816",
+      "weighted_time_spent_doing_ios_ms": "11258667",
+      "writes_completed": "2707777",
+      "writes_merged": "0"
+    },
+    "7": {
+      "device_name": "sdb",
+      "ios_currently_in_progress": "0",
+      "maj": "8",
+      "min": "16",
+      "reads_completed_successfully": "667",
+      "reads_merged": "0",
+      "sectors_read": "63590",
+      "sectors_written": "601062",
+      "time_spend_reading_ms": "137",
+      "time_spend_writing_ms": "11261",
+      "time_spent_doing_ios_ms": "776",
+      "weighted_time_spent_doing_ios_ms": "11228",
+      "writes_completed": "541",
+      "writes_merged": "35755"
+    },
+    "8": {
+      "device_name": "sdb1",
+      "ios_currently_in_progress": "0",
+      "maj": "8",
+      "min": "17",
+      "reads_completed_successfully": "194",
+      "reads_merged": "0",
+      "sectors_read": "35644",
+      "sectors_written": "169382",
+      "time_spend_reading_ms": "58",
+      "time_spend_writing_ms": "351",
+      "time_spent_doing_ios_ms": "364",
+      "weighted_time_spent_doing_ios_ms": "401",
+      "writes_completed": "106",
+      "writes_merged": "2669"
+    }
+  },
+  "diskstat1": {
+    "1": {
+      "device_name": "sda",
+      "ios_currently_in_progress": "0",
+      "maj": "8",
+      "min": "0",
+      "reads_completed_successfully": "4516774",
+      "reads_merged": "431646",
+      "sectors_read": "570717634",
+      "sectors_written": "605576477",
+      "time_spend_reading_ms": "46923233",
+      "time_spend_writing_ms": "16411230",
+      "time_spent_doing_ios_ms": "9321753",
+      "weighted_time_spent_doing_ios_ms": "63025112",
+      "writes_completed": "22805549",
+      "writes_merged": "3217404"
+    },
+    "2": {
+      "device_name": "sda1",
+      "ios_currently_in_progress": "0",
+      "maj": "8",
+      "min": "1",
+      "reads_completed_successfully": "1044",
+      "reads_merged": "0",
+      "sectors_read": "26029",
+      "sectors_written": "30921",
+      "time_spend_reading_ms": "383",
+      "time_spend_writing_ms": "158",
+      "time_spent_doing_ios_ms": "249",
+      "weighted_time_spent_doing_ios_ms": "540",
+      "writes_completed": "65",
+      "writes_merged": "3"
+    },
+    "3": {
+      "device_name": "sda2",
+      "ios_currently_in_progress": "0",
+      "maj": "8",
+      "min": "2",
+      "reads_completed_successfully": "4515699",
+      "reads_merged": "431646",
+      "sectors_read": "570688509",
+      "sectors_written": "605545556",
+      "time_spend_reading_ms": "46922813",
+      "time_spend_writing_ms": "16411072",
+      "time_spent_doing_ios_ms": "9321758",
+      "weighted_time_spent_doing_ios_ms": "63025526",
+      "writes_completed": "22805484",
+      "writes_merged": "3217401"
+    },
+    "4": {
+      "device_name": "sr0",
+      "ios_currently_in_progress": "0",
+      "maj": "11",
+      "min": "0",
+      "reads_completed_successfully": "18",
+      "reads_merged": "0",
+      "sectors_read": "2056",
+      "sectors_written": "0",
+      "time_spend_reading_ms": "6",
+      "time_spend_writing_ms": "0",
+      "time_spent_doing_ios_ms": "6",
+      "weighted_time_spent_doing_ios_ms": "6",
+      "writes_completed": "0",
+      "writes_merged": "0"
+    },
+    "5": {
+      "device_name": "dm-0",
+      "ios_currently_in_progress": "0",
+      "maj": "253",
+      "min": "0",
+      "reads_completed_successfully": "4224627",
+      "reads_merged": "0",
+      "sectors_read": "564718669",
+      "sectors_written": "583883340",
+      "time_spend_reading_ms": "46751437",
+      "time_spend_writing_ms": "17184251",
+      "time_spent_doing_ios_ms": "8165417",
+      "weighted_time_spent_doing_ios_ms": "64057866",
+      "writes_completed": "23315121",
+      "writes_merged": "0"
+    },
+    "6": {
+      "device_name": "dm-1",
+      "ios_currently_in_progress": "0",
+      "maj": "253",
+      "min": "1",
+      "reads_completed_successfully": "745237",
+      "reads_merged": "0",
+      "sectors_read": "5965600",
+      "sectors_written": "21662216",
+      "time_spend_reading_ms": "3356564",
+      "time_spend_writing_ms": "7897504",
+      "time_spent_doing_ios_ms": "1315816",
+      "weighted_time_spent_doing_ios_ms": "11258667",
+      "writes_completed": "2707777",
+      "writes_merged": "0"
+    },
+    "7": {
+      "device_name": "sdb",
+      "ios_currently_in_progress": "0",
+      "maj": "8",
+      "min": "16",
+      "reads_completed_successfully": "667",
+      "reads_merged": "0",
+      "sectors_read": "63590",
+      "sectors_written": "601062",
+      "time_spend_reading_ms": "137",
+      "time_spend_writing_ms": "11261",
+      "time_spent_doing_ios_ms": "776",
+      "weighted_time_spent_doing_ios_ms": "11228",
+      "writes_completed": "541",
+      "writes_merged": "35755"
+    },
+    "8": {
+      "device_name": "sdb1",
+      "ios_currently_in_progress": "0",
+      "maj": "8",
+      "min": "17",
+      "reads_completed_successfully": "194",
+      "reads_merged": "0",
+      "sectors_read": "35644",
+      "sectors_written": "169382",
+      "time_spend_reading_ms": "58",
+      "time_spend_writing_ms": "351",
+      "time_spent_doing_ios_ms": "364",
+      "weighted_time_spent_doing_ios_ms": "401",
+      "writes_completed": "106",
+      "writes_merged": "2669"
+    }
+  },
+  "freest": {
+    "mem_avail": "7004148",
+    "mem_buff": "6967848",
+    "mem_free": "1454080",
+    "mem_tot": "16266588",
+    "mem_used": "7844660",
+    "swap_free": "60",
+    "swap_tot": "3145724",
+    "swap_used": "3145664"
+  },
+  "host": "lab-tab-linux",
+  "netstat0": {
+    "ens192": {
+      "bytes_in": "11520439869",
+      "bytes_out": "7559845870",
+      "packets_in": "17933680",
+      "packets_out": "15065244"
+    },
+    "lo": {
+      "bytes_in": "678939829002",
+      "bytes_out": "678939829002",
+      "packets_in": "4599428353",
+      "packets_out": "4599428353"
+    }
+  },
+  "netstat1": {
+    "ens192": {
+      "bytes_in": "11520455521",
+      "bytes_out": "7559873264",
+      "packets_in": "17933718",
+      "packets_out": "15065284"
+    },
+    "lo": {
+      "bytes_in": "678942088568",
+      "bytes_out": "678942088568",
+      "packets_in": "4599443767",
+      "packets_out": "4599443767"
+    }
+  },
+  "os": "Linux",
+  "pmem": {
+    "1": {
+      "comm": "run-backgrounde",
+      "pid": "6604",
+      "pmem": "6.4",
+      "user": "tableau"
+    },
+    "10": {
+      "comm": "run-noninteract",
+      "pid": "18148",
+      "pmem": "1.8",
+      "user": "tableau"
+    },
+    "11": {
+      "comm": "java",
+      "pid": "17912",
+      "pmem": "1.6",
+      "user": "tableau"
+    },
+    "12": {
+      "comm": "postgres",
+      "pid": "17800",
+      "pmem": "1.6",
+      "user": "tableau"
+    },
+    "13": {
+      "comm": "postgres",
+      "pid": "17907",
+      "pmem": "1.6",
+      "user": "tableau"
+    },
+    "14": {
+      "comm": "run-interactive",
+      "pid": "18109",
+      "pmem": "1.5",
+      "user": "tableau"
+    },
+    "15": {
+      "comm": "postgres",
+      "pid": "17915",
+      "pmem": "1.3",
+      "user": "tableau"
+    },
+    "16": {
+      "comm": "run-gateway",
+      "pid": "17594",
+      "pmem": "1.3",
+      "user": "tableau"
+    },
+    "17": {
+      "comm": "run-webhooks",
+      "pid": "18627",
+      "pmem": "1.1",
+      "user": "tableau"
+    },
+    "18": {
+      "comm": "postgres",
+      "pid": "17906",
+      "pmem": "0.9",
+      "user": "tableau"
+    },
+    "19": {
+      "comm": "nlp",
+      "pid": "18661",
+      "pmem": "0.9",
+      "user": "tableau"
+    },
+    "2": {
+      "comm": "run-vizportal",
+      "pid": "17365",
+      "pmem": "6.1",
+      "user": "tableau"
+    },
+    "20": {
+      "comm": "appzookeeper",
+      "pid": "21615",
+      "pmem": "0.8",
+      "user": "tableau"
+    },
+    "21": {
+      "comm": "run-clustercont",
+      "pid": "17412",
+      "pmem": "0.7",
+      "user": "tableau"
+    },
+    "22": {
+      "comm": "run-filestore",
+      "pid": "17566",
+      "pmem": "0.6",
+      "user": "tableau"
+    },
+    "23": {
+      "comm": "clientfileservi",
+      "pid": "21923",
+      "pmem": "0.5",
+      "user": "tableau"
+    },
+    "24": {
+      "comm": "postgres",
+      "pid": "17905",
+      "pmem": "0.3",
+      "user": "tableau"
+    },
+    "25": {
+      "comm": "FNPLicensingSer",
+      "pid": "1578",
+      "pmem": "0.2",
+      "user": "tableau"
+    },
+    "26": {
+      "comm": "systemd-journal",
+      "pid": "853",
+      "pmem": "0.2",
+      "user": "root"
+    },
+    "27": {
+      "comm": "postgres",
+      "pid": "12391",
+      "pmem": "0.2",
+      "user": "tableau"
+    },
+    "28": {
+      "comm": "postgres",
+      "pid": "7415",
+      "pmem": "0.2",
+      "user": "tableau"
+    },
+    "29": {
+      "comm": "postgres",
+      "pid": "19967",
+      "pmem": "0.2",
+      "user": "tableau"
+    },
+    "3": {
+      "comm": "run-apigateway",
+      "pid": "18357",
+      "pmem": "4.5",
+      "user": "tableau"
+    },
+    "30": {
+      "comm": "rsyslogd",
+      "pid": "1762",
+      "pmem": "0.1",
+      "user": "root"
+    },
+    "4": {
+      "comm": "java",
+      "pid": "17781",
+      "pmem": "4.0",
+      "user": "tableau"
+    },
+    "5": {
+      "comm": "tabadminagent",
+      "pid": "20765",
+      "pmem": "3.7",
+      "user": "tableau"
+    },
+    "6": {
+      "comm": "java",
+      "pid": "17727",
+      "pmem": "3.4",
+      "user": "tableau"
+    },
+    "7": {
+      "comm": "run-vizqlserver",
+      "pid": "18582",
+      "pmem": "2.2",
+      "user": "tableau"
+    },
+    "8": {
+      "comm": "tabadmincontrol",
+      "pid": "21233",
+      "pmem": "2.0",
+      "user": "tableau"
+    },
+    "9": {
+      "comm": "run-dataserver",
+      "pid": "17527",
+      "pmem": "1.9",
+      "user": "tableau"
+    }
+  },
+  "proc_cpu": {
+    "1": {
+      "comm": "java",
+      "pcpu": "16.0"
+    },
+    "10": {
+      "comm": "collect_st+",
+      "pcpu": "0.3"
+    },
+    "11": {
+      "comm": "collect_st+",
+      "pcpu": "0.3"
+    },
+    "12": {
+      "comm": "tabadminco+",
+      "pcpu": "0.3"
+    },
+    "13": {
+      "comm": "postgres",
+      "pcpu": "0.3"
+    },
+    "14": {
+      "comm": "postgres",
+      "pcpu": "0.2"
+    },
+    "15": {
+      "comm": "hyperd",
+      "pcpu": "0.2"
+    },
+    "16": {
+      "comm": "collect_st+",
+      "pcpu": "0.2"
+    },
+    "17": {
+      "comm": "redis-serv+",
+      "pcpu": "0.2"
+    },
+    "18": {
+      "comm": "postgres",
+      "pcpu": "0.2"
+    },
+    "19": {
+      "comm": "postgres",
+      "pcpu": "0.2"
+    },
+    "2": {
+      "comm": "run-webhoo+",
+      "pcpu": "5.6"
+    },
+    "20": {
+      "comm": "tabadminag+",
+      "pcpu": "0.2"
+    },
+    "3": {
+      "comm": "run-vizpor+",
+      "pcpu": "2.0"
+    },
+    "4": {
+      "comm": "run-intera+",
+      "pcpu": "0.8"
+    },
+    "5": {
+      "comm": "run-datase+",
+      "pcpu": "0.7"
+    },
+    "6": {
+      "comm": "run-nonint+",
+      "pcpu": "0.7"
+    },
+    "7": {
+      "comm": "run-backgr+",
+      "pcpu": "0.6"
+    },
+    "8": {
+      "comm": "run-vizqls+",
+      "pcpu": "0.6"
+    },
+    "9": {
+      "comm": "nlp",
+      "pcpu": "0.4"
+    }
+  },
+  "topst": {
+    "cpu_idl": "90.8",
+    "cpu_st": "0.0",
+    "cpu_sys": "3.0",
+    "cpu_usr": "6.0",
+    "cpu_wai": "0.0",
+    "ld_avg1": "1.78",
+    "num_procs": "4"
+  },
+  "ts": "2020-03-12 18:21:52",
+  "ver": "20191002"
+}
